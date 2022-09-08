@@ -8,3 +8,49 @@
     <H1><b>Test_test01</b></h1>
   </body>
 </html>
+package com.javalec.base;
+
+import java.util.Scanner;
+
+public class If_05_HakJum {
+
+	public static void main(String[] args) {
+		/*
+		a	90
+		b	80
+		c	70
+		d	60
+		f	59
+		
+		
+		*/
+		
+		Scanner scanNum = new Scanner(System.in);
+		
+		System.out.print("put : ");
+		int sum = scanNum.nextInt();
+		
+		if(sum <=100 && sum >=90) {
+			System.out.println("A");
+		}else if(sum < 90 && sum >=80){
+			System.out.println("B");
+		}else if(sum < 80 && sum >=70) {
+			System.out.println("C");
+		}else if(sum < 70 && sum >=60) {
+			System.out.println("D");
+		}else if(sum<60 && sum >= 0){
+			System.out.println("F");
+		}else {
+			System.out.println("Error");
+		}
+		
+		
+		
+		
+		
+		
+		
+		
+	}//main end
+
+}//class end
